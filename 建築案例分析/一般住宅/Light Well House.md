@@ -3,6 +3,7 @@ tags:
   - Light
   - Diagram
   - LightWell
+up: "[[00_一般住宅_Map]]"
 ---
 設計：Hirokazu SUMITSU, Yoko SUEMITSU
 
