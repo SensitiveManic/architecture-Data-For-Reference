@@ -54,8 +54,12 @@
 
 - $I_x=\displaystyle\int y^2\,dA$，$I_{x'}=\displaystyle\int y'^2\,dA$（$x'$ 為形心軸）
 - $y=y'+d$
-- $\begin{aligned}I_{BB'}&=\int y^2\,dA\\&=\int(y'+d)^2\,dA\\&=\int(y'^2+2dy'+d^2)\,dA\\&=\int y'^2\,dA+2d\underbrace{\int y'\,dA}_{\text{1st moment}=0}+d^2\int dA\\&=\bar I+0+Ad^2\end{aligned}$
-	（$\displaystyle\int y'\,dA=\bar y'A=0$，因為 $y'$ 以 $x'$ 為基準，其形心座標為 0）
+
+$$
+\begin{aligned}I_{BB'}&=\int y^2\,dA\\&=\int(y'+d)^2\,dA\\&=\int(y'^2+2dy'+d^2)\,dA\\&=\int y'^2\,dA+2d\underbrace{\int y'\,dA}_{\text{1st moment}=0}+d^2\int dA\\&=\bar I+0+Ad^2\end{aligned}
+$$
+
+- （$\displaystyle\int y'\,dA=\bar y'A=0$，因為 $y'$ 以 $x'$ 為基準，其形心座標為 0）
 - $I_{BB'}=\bar I+Ad^2$，$d>0$
 - $\bar I=\bar k^2A$
 - $I_{BB'}=k^2A=\bar I+Ad^2$
@@ -76,7 +80,10 @@
 - 對稱例：$dA(x,y)$ 與 $dA(x,-y)$ 成對出現 → $I_{xy}=\displaystyle\int xy\,dA=0$
 
 - 平移公式（$x=x'+\bar x$，$y=y'+\bar y$，$x'y'$ 為形心軸）：
-	- $\begin{aligned}I_{xy}&=\int xy\,dA=\int(x'+\bar x)(y'+\bar y)\,dA\\&=\int x'y'\,dA+\int x'\bar y\,dA+\int\bar x y'\,dA+\int\bar x\bar y\,dA\\&=\bar I_{x'y'}+\bar x\bar y A\end{aligned}$
+
+$$
+\begin{aligned}I_{xy}&=\int xy\,dA=\int(x'+\bar x)(y'+\bar y)\,dA\\&=\int x'y'\,dA+\int x'\bar y\,dA+\int\bar x y'\,dA+\int\bar x\bar y\,dA\\&=\bar I_{x'y'}+\bar x\bar y A\end{aligned}
+$$
 
 ## 9.9 Principal Axis and Principal Moments of Inertia
 
@@ -88,11 +95,17 @@
 	- $y'=y\cos\theta-x\sin\theta$
 	- $\sin2\theta=2\sin\theta\cos\theta$，$\cos2\theta=\cos^2\theta-\sin^2\theta$
 
-- $\begin{aligned}I_{x'}&=\int y'^2\,dA=\int(y\cos\theta-x\sin\theta)^2\,dA\\&=\cos^2\theta\underbrace{\int y^2\,dA}_{I_x}-2\sin\theta\cos\theta\underbrace{\int xy\,dA}_{I_{xy}}+\sin^2\theta\underbrace{\int x^2\,dA}_{I_y}\\&=I_x\cos^2\theta-2I_{xy}\sin\theta\cos\theta+I_y\sin^2\theta\\&=\dfrac{I_x+I_y}{2}+\dfrac{I_x-I_y}{2}\cos2\theta-I_{xy}\sin2\theta\end{aligned}$
+$$
+\begin{aligned}I_{x'}&=\int y'^2\,dA=\int(y\cos\theta-x\sin\theta)^2\,dA\\&=\cos^2\theta\underbrace{\int y^2\,dA}_{I_x}-2\sin\theta\cos\theta\underbrace{\int xy\,dA}_{I_{xy}}+\sin^2\theta\underbrace{\int x^2\,dA}_{I_y}\\&=I_x\cos^2\theta-2I_{xy}\sin\theta\cos\theta+I_y\sin^2\theta\\&=\dfrac{I_x+I_y}{2}+\dfrac{I_x-I_y}{2}\cos2\theta-I_{xy}\sin2\theta\end{aligned}
+$$
 
-- $\begin{aligned}I_{y'}&=\int x'^2\,dA\\&=I_x\sin^2\theta+2I_{xy}\sin\theta\cos\theta+I_y\cos^2\theta\\&=\dfrac{I_x+I_y}{2}-\dfrac{I_x-I_y}{2}\cos2\theta+I_{xy}\sin2\theta\end{aligned}$
+$$
+\begin{aligned}I_{y'}&=\int x'^2\,dA\\&=I_x\sin^2\theta+2I_{xy}\sin\theta\cos\theta+I_y\cos^2\theta\\&=\dfrac{I_x+I_y}{2}-\dfrac{I_x-I_y}{2}\cos2\theta+I_{xy}\sin2\theta\end{aligned}
+$$
 
-- $\begin{aligned}I_{x'y'}&=\int x'y'\,dA\\&=I_x\sin\theta\cos\theta+I_{xy}(\cos^2\theta-\sin^2\theta)-I_y\sin\theta\cos\theta\\&=\dfrac{I_x-I_y}{2}\sin2\theta+I_{xy}\cos2\theta\end{aligned}$
+$$
+\begin{aligned}I_{x'y'}&=\int x'y'\,dA\\&=I_x\sin\theta\cos\theta+I_{xy}(\cos^2\theta-\sin^2\theta)-I_y\sin\theta\cos\theta\\&=\dfrac{I_x-I_y}{2}\sin2\theta+I_{xy}\cos2\theta\end{aligned}
+$$
 
 - $I_x+I_y=I_{x'}+I_{y'}=J_O$（unvarying，旋轉不變量）
 
@@ -107,7 +120,9 @@
 - 圓心 $=I_{ave}$，半徑 $R$，橫軸 $I_x$、縱軸 $I_{x'y'}$
 	- $(I_{max},0)$、$(I_{min},0)$ 為 principal moments of inertia
 
-- $\begin{aligned}I_{xy}&=\int xy\,dA\\&=\int(\bar x+x')(\bar y+y')\,dA\\&=\int\bar x\bar y\,dA+\int\bar xy'\,dA+\int x'\bar y\,dA+\int x'y'\,dA\end{aligned}$
+$$
+\begin{aligned}I_{xy}&=\int xy\,dA\\&=\int(\bar x+x')(\bar y+y')\,dA\\&=\int\bar x\bar y\,dA+\int\bar xy'\,dA+\int x'\bar y\,dA+\int x'y'\,dA\end{aligned}
+$$
 
 ## 9.11 Moment of Inertia of a Mass
 
@@ -127,7 +142,9 @@
 
 - $x=\bar x+x'$，$y=\bar y+y'$，$z=\bar z+z'$
 
-- $\begin{aligned}I_x&=\int(y^2+z^2)\,dm\\&=\int\left[(\bar y+y')^2+(\bar z+z')^2\right]dm\\&=\int(\bar y^2+\bar z^2)\,dm+2\bar y\int y'\,dm+2\bar z\int z'\,dm+\int(y'^2+z'^2)\,dm\\&=\bar I_{x'}+m(\bar y^2+\bar z^2)\end{aligned}$
+$$
+\begin{aligned}I_x&=\int(y^2+z^2)\,dm\\&=\int\left[(\bar y+y')^2+(\bar z+z')^2\right]dm\\&=\int(\bar y^2+\bar z^2)\,dm+2\bar y\int y'\,dm+2\bar z\int z'\,dm+\int(y'^2+z'^2)\,dm\\&=\bar I_{x'}+m(\bar y^2+\bar z^2)\end{aligned}
+$$
 
 ## 9.13 Moments of Inertia of Thin Plates
 

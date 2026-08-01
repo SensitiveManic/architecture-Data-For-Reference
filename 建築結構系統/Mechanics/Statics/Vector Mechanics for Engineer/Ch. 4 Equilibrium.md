@@ -1,4 +1,7 @@
-- $\begin{aligned}\sum\overrightarrow{F}=0,\sum\overrightarrow{M}=\sum\overrightarrow{r}×\overrightarrow{F}=0\end{aligned}$
+$$
+\begin{aligned}\sum\overrightarrow{F}=0,\sum\overrightarrow{M}=\sum\overrightarrow{r}×\overrightarrow{F}=0\end{aligned}
+$$
+
 - $\sum{F_{x,y,z}}=0$
 - $\sum{M_{x,y,z}}=0$
 
