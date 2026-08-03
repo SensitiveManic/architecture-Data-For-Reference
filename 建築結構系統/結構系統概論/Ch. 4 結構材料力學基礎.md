@@ -4,14 +4,16 @@ up: "[[architectureData/建築結構系統/結構系統概論/CH. 0 Contents]]"
 
 ## 應力・應變基本觀念
 
-![[應力應變曲線與恢復力遲滯迴圈.png|400]]
+![[Pasted image 20260802225712.png|500]]
 
 - $\sigma=\dfrac{P}{A}$（應力），$\varepsilon=\dfrac{\Delta}{L}$（應變）
 - 彈性模數 $E=\dfrac{\sigma}{\varepsilon}$（彈性階段）
-- 安全係數 $=\dfrac{降伏應力}{使用應力}$
+- 安全係數＝降伏應力 ÷ 使用應力
 - 能量吸收＝韌性：$P$–$\Delta$ 曲線下的面積（破壞前吸收的能量）
 
 ## 恢復力與遲滯迴圈
+
+![[Pasted image 20260802225738.png]]
 
 - 恢復力／遲滯迴圈：
 	- 能量消耗＝恢復力曲線所圍繞的面積，此部分能量消耗後不能恢復原狀（塑性變形）。
@@ -19,11 +21,11 @@ up: "[[architectureData/建築結構系統/結構系統概論/CH. 0 Contents]]"
 
 ## 韌性材料 vs 脆性材料
 
-![[韌性材料與塑性流變.png|400]]
+![[Pasted image 20260802225823.png]]
 
 - ==韌性比（Ductility Ratio）== $=\Delta_u/\Delta_y$
-	- 韌性桿件：$\Delta_u/\Delta_y≥5$；韌性接頭：$\Delta_u/\Delta_y≥4$
-	- 脆性桿件：$\Delta_u/\Delta_y≤3$；脆性結構：$\Delta_u/\Delta_y≤2$
+	- 韌性桿件：$\Delta_u/\Delta_y\geq5$；韌性接頭：$\Delta_u/\Delta_y\geq4$
+	- 脆性桿件：$\Delta_u/\Delta_y\leq3$；脆性結構：$\Delta_u/\Delta_y\leq2$
 - 韌性比越大，破壞前的徵兆越明顯，且吸收的能量越多，抵抗能力越強。
 
 ## 塑性流變（plastic flow）
@@ -37,6 +39,6 @@ up: "[[architectureData/建築結構系統/結構系統概論/CH. 0 Contents]]"
 
 ## 塑性鉸（plastic hinge）
 
-![[塑性鉸示意.png|400]]
+![[Pasted image 20260802225851.png|300]]
 
 - 韌性桿件達降伏後產生塑性流變，達極限彎矩後無法再增加彎矩容量，卻因韌性材料的塑性流變可自由轉動，行為有如鉸接，故稱塑性鉸。

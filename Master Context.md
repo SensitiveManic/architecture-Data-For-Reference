@@ -3,10 +3,6 @@
 
 ## User Profile
 
-- 使用者：yun（email: h7058463@gmail.com）
-- 背景推測為建築／結構工程相關科系學生或考生，正在研讀「靜力學（Statics）」與「建築法規（Building Regulations）」，可能是為了學校課程或建築相關國家考試（題庫標示「110」「111」等台灣民國紀年，推測為考古題）做準備。
-- 主要筆記系統為 Obsidian，並將 vault 連接 GitHub 做版本控管／備份。
-- 中文為母語，筆記習慣英文為主、中文加註，顯示具備一定的技術英文閱讀能力。
 
 ## Current Projects
 

@@ -4,8 +4,6 @@ up: "[[architectureData/建築結構系統/結構系統概論/CH. 0 Contents]]"
 
 ## 支承種類
 
-![[支承符號與桁架示意.png|400]]
-
 - Fix（固定支承）
 - Pin / Hinge（鉸支承）
 - Roller（滾支承）
@@ -14,7 +12,6 @@ up: "[[architectureData/建築結構系統/結構系統概論/CH. 0 Contents]]"
 
 ## 桁架（Truss）
 
-![[桁架結構分類.png|400]]
 
 - ==桁架（Truss）==：由一種只會產生軸力的桿件組合而成的結構體，節點為鉸接。
 	- 平面桁架 plane truss：外力落在結構面內；可視為較有效率的梁構件。
